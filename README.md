@@ -31,8 +31,11 @@ Good luck!
 ## How to run the analysis
 
 step 1. git clone the repo
+
 step 2. change Director to the project folder
+
 step 3. in RStudio . setwd() to the project folder
+
 step 4. source(run_analysis.R). 
 
 ### step 4 : explained in brief
