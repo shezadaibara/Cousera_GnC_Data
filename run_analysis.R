@@ -1,6 +1,5 @@
 library("dplyr")
 
-
 download_unzip_data <- function() {
   ## Download and unzip the dataset:
   filename <- "dataset.zip"
@@ -59,8 +58,7 @@ create_labelled_y_data <- function(y_data){
 }
 
 get_average_data <- function(all_data){
-  avg_data <- all_data %>% group_by(subject, activity) %>% summarise_each(funs(mean))
-  avg_data
+  all_data %>% group_by(subject, activity) %>% summarise_each(funs(mean))
 }
 
 download_unzip_data()
@@ -75,8 +73,8 @@ y_data <- create_labelled_y_data(y_data)
 all_data <- cbind(x_data_subset, y_data, subjects)
 
 # avg data creation and write to a file
-avg_data <- get_avgerate_data(all_data):
+avg_data <- get_average_data(all_data)
 
-write.table(avg_data, "UCI HAR Dataset/averages_data.txt")
+write.table(avg_data, "UCI HAR Dataset/averages_data.txt", row.name=FALSE)
 
 
