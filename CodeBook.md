@@ -1,7 +1,80 @@
 #CodeBook
 
 <hr>
-### Variables
+### Columns
+<hr>
+
+- `subject` : numberic
+- `activity` : string
+- `tBodyAccmeanX` : numberic
+- `tBodyAccmeanY` : numberic
+- `tBodyAccmeanZ` : numberic
+- `tBodyAccstdX` : numberic
+- `tBodyAccstdY` : numberic
+- `tBodyAccstdZ` : numberic
+- `tGravityAccmeanX` : numberic
+- `tGravityAccmeanY` : numberic
+- `tGravityAccmeanZ` : numberic
+- `tGravityAccstdX` : numberic
+- `tGravityAccstdY` : numberic
+- `tGravityAccstdZ` : numberic
+- `tBodyAccJerkmeanX`: numberic
+- `tBodyAccJerkmeanY`: numberic
+- `tBodyAccJerkmeanZ` : numberic
+- `tBodyAccJerkstdX` : numberic
+- `tBodyAccJerkstdY` : numberic
+- `tBodyAccJerkstdZ` : numberic
+- `tBodyGyromeanX` : numberic
+- `tBodyGyromeanY` : numberic
+- `tBodyGyromeanZ` : numberic
+- `tBodyGyrostdX` : numberic
+- `tBodyGyrostdY` : numberic
+- `tBodyGyrostdZ` : numberic
+- `tBodyGyroJerkmeanX` : numberic
+- `tBodyGyroJerkmeanY` : numberic
+- `tBodyGyroJerkmeanZ` : numberic
+- `tBodyGyroJerkstdX` : numberic
+- `tBodyGyroJerkstdY` : numberic
+- `tBodyGyroJerkstdZ` : numberic
+- `tBodyAccMagmean` : numberic
+- `tBodyAccMagstd`: numberic
+- `tGravityAccMagmean`: numberic
+- `tGravityAccMagstd` : numberic
+- `tBodyAccJerkMagmean`: numberic
+- `tBodyAccJerkMagstd` : numberic
+- `tBodyGyroMagmean` : numberic
+- `tBodyGyroMagstd` : numberic
+- `tBodyGyroJerkMagmean`: numberic
+- `tBodyGyroJerkMagstd` : numberic
+- `fBodyAccmeanX` : numberic
+- `fBodyAccmeanY` : numberic
+- `fBodyAccmeanZ` : numberic
+- `fBodyAccstdX` : numberic
+- `fBodyAccstdY` : numberic
+- `fBodyAccstdZ` : numberic
+- `fBodyAccJerkmeanX`: numberic
+- `fBodyAccJerkmeanY` : numberic
+- `fBodyAccJerkmeanZ` : numberic
+- `fBodyAccJerkstdX`: numberic
+- `fBodyAccJerkstdY`: numberic
+- `fBodyAccJerkstdZ`: numberic
+- `fBodyGyromeanX` : numberic
+- `fBodyGyromeanY` : numberic
+- `fBodyGyromeanZ` : numberic
+- `fBodyGyrostdX`: numberic
+- `fBodyGyrostdY` : numberic
+- `fBodyGyrostdZ` : numberic
+- `fBodyAccMagmean`: numberic
+- `fBodyAccMagstd`: numberic
+- `fBodyBodyAccJerkMagmean`: numberic
+- `fBodyBodyAccJerkMagstd`: numberic
+- `fBodyBodyGyroMagmean`: numberic
+- `fBodyBodyGyroMagstd`: numberic
+- `fBodyBodyGyroJerkMagmean`: numberic
+- `fBodyBodyGyroJerkMagstd`: numberic
+
+<hr>
+### Global Enviornment Variables
 <hr>
 __x_data :__ dataframe reprisanting Combined data of `X_train` and `X_test` files
 

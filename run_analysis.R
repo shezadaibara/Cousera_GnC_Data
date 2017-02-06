@@ -46,7 +46,7 @@ create_labelled_x_data_subset <- function(x_data){
   x_data_subset <- select(x_data, mean_std_features$V1)
   
   # using the standard make.names() to remove special characters from descriptive dataname 
-  names(x_data_subset) <- make.names(mean_std_features$V2) 
+  names(x_data_subset) <- gsub("\\.", "", make.names(mean_std_features$V2)) 
   x_data_subset
 }
 
